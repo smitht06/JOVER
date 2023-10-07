@@ -26,3 +26,5 @@ urllib3==1.26.14
 whitenoise==6.5.0
 django-localflavor
 django-phonenumber-field
+django-phonenumbers
+
