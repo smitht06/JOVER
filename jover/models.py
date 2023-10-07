@@ -31,7 +31,7 @@ class Campaign(models.Model):
     office = models.CharField(max_length=255, blank=True)
     district = models.CharField(max_length=255, blank=True)
     manager = models.ForeignKey(Person, on_delete=models.CASCADE, related_name='campaign_manager')
-    volunteers = models.ManyToManyField(Person, related_name='campaign_volunteers')
+    volunteers = models.ManyToManyField(Person, related_name='campaign_volunteers', blank=True)
 
 class ContactLog(models.Model):
     campaign = models.ForeignKey(Campaign, on_delete=models.CASCADE)

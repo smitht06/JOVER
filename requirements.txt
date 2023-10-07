@@ -27,4 +27,5 @@ whitenoise==6.5.0
 django-localflavor
 django-phonenumber-field
 django-phonenumbers
+wagtail
 
