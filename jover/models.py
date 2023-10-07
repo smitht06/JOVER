@@ -47,6 +47,3 @@ class Materials(models.Model):
     file = models.FileField(upload_to='materials/')
 
 
-
-
-
